@@ -1,0 +1,90 @@
+2024-08-27 18:19:48,460 - INFO - Precisión del modelo: 65.73%
+2024-08-27 18:19:48,461 - INFO - Reporte de clasificación:
+2024-08-27 18:19:48,522 - INFO -               precision    recall  f1-score   support
+
+        Alto       0.75      0.75      0.75      1056
+        Bajo       0.76      0.81      0.78      1030
+  Medio Alto       0.53      0.53      0.53       986
+  Medio Bajo       0.57      0.53      0.55      1002
+
+    accuracy                           0.66      4074
+   macro avg       0.65      0.65      0.65      4074
+weighted avg       0.65      0.66      0.66      4074
+
+2024-08-27 18:19:48,522 - INFO - Matriz de confusión:
+2024-08-27 18:19:48,528 - INFO - [[791  10 221  34]
+ [  8 835  30 157]
+ [217  34 521 214]
+ [ 36 226 209 531]]
+2024-08-27 18:21:34,729 - INFO - C:\Users\Daniel\Main\UVG\Semestre_X\MLOps\Ejercicio5\model_pipeline\services\training.py changed, reloading.
+2024-08-27 18:21:39,754 - INFO - Precisión del modelo: 65.73%
+2024-08-27 18:21:39,754 - INFO - Reporte de clasificación:
+2024-08-27 18:21:39,816 - INFO -               precision    recall  f1-score   support
+
+        Alto       0.75      0.75      0.75      1056
+        Bajo       0.76      0.81      0.78      1030
+  Medio Alto       0.53      0.53      0.53       986
+  Medio Bajo       0.57      0.53      0.55      1002
+
+    accuracy                           0.66      4074
+   macro avg       0.65      0.65      0.65      4074
+weighted avg       0.65      0.66      0.66      4074
+
+2024-08-27 18:21:39,816 - INFO - Matriz de confusión:
+2024-08-27 18:21:39,823 - INFO - [[791  10 221  34]
+ [  8 835  30 157]
+ [217  34 521 214]
+ [ 36 226 209 531]]
+2024-08-27 18:21:39,823 - INFO - Características seleccionadas: Index(['Rooms', 'Distance', 'Postcode', 'Bedroom2', 'Bathroom', 'Landsize',
+       'Propertycount'],
+      dtype='object')
+2024-08-27 18:21:50,753 - INFO - C:\Users\Daniel\Main\UVG\Semestre_X\MLOps\Ejercicio5\model_pipeline\services\training.py changed, reloading.
+2024-08-27 18:21:55,715 - INFO - Precisión del modelo: 65.73%
+2024-08-27 18:21:55,716 - INFO - Reporte de clasificación:
+2024-08-27 18:21:55,782 - INFO -               precision    recall  f1-score   support
+
+        Alto       0.75      0.75      0.75      1056
+        Bajo       0.76      0.81      0.78      1030
+  Medio Alto       0.53      0.53      0.53       986
+  Medio Bajo       0.57      0.53      0.55      1002
+
+    accuracy                           0.66      4074
+   macro avg       0.65      0.65      0.65      4074
+weighted avg       0.65      0.66      0.66      4074
+
+2024-08-27 18:21:55,782 - INFO - Matriz de confusión:
+2024-08-27 18:21:55,789 - INFO - [[791  10 221  34]
+ [  8 835  30 157]
+ [217  34 521 214]
+ [ 36 226 209 531]]
+2024-08-27 18:21:55,790 - INFO - Características seleccionadas: Index(['Rooms', 'Distance', 'Postcode', 'Bedroom2', 'Bathroom', 'Landsize',
+       'Propertycount'],
+      dtype='object')
+2024-08-27 18:45:17,177 - INFO - C:\Users\Daniel\Main\UVG\Semestre_X\MLOps\Ejercicio5\model_pipeline\views.py changed, reloading.
+2024-08-27 18:45:21,730 - INFO - C:\Users\Daniel\Main\UVG\Semestre_X\MLOps\Ejercicio5\model_pipeline\views.py changed, reloading.
+2024-08-27 18:45:58,814 - INFO - C:\Users\Daniel\Main\UVG\Semestre_X\MLOps\Ejercicio5\model_pipeline\views.py changed, reloading.
+2024-08-27 18:48:36,044 - INFO - C:\Users\Daniel\Main\UVG\Semestre_X\MLOps\Ejercicio5\model_pipeline\services\training.py changed, reloading.
+2024-08-27 18:48:54,665 - INFO - Precisión del modelo: 65.73%
+2024-08-27 18:48:54,665 - INFO - Reporte de clasificación:
+2024-08-27 18:48:54,746 - INFO -               precision    recall  f1-score   support
+
+        Alto       0.75      0.75      0.75      1056
+        Bajo       0.76      0.81      0.78      1030
+  Medio Alto       0.53      0.53      0.53       986
+  Medio Bajo       0.57      0.53      0.55      1002
+
+    accuracy                           0.66      4074
+   macro avg       0.65      0.65      0.65      4074
+weighted avg       0.65      0.66      0.66      4074
+
+2024-08-27 18:48:54,746 - INFO - Matriz de confusión:
+2024-08-27 18:48:54,753 - INFO - [[791  10 221  34]
+ [  8 835  30 157]
+ [217  34 521 214]
+ [ 36 226 209 531]]
+2024-08-27 18:48:54,754 - INFO - Características seleccionadas: Index(['Rooms', 'Distance', 'Postcode', 'Bedroom2', 'Bathroom', 'Landsize',
+       'Propertycount'],
+      dtype='object')
+2024-08-27 18:49:07,370 - INFO - C:\Users\Daniel\Main\UVG\Semestre_X\MLOps\Ejercicio5\model_pipeline\services\prediction.py changed, reloading.
+2024-08-27 18:50:22,248 - WARNING - Method Not Allowed: /pipeline/predict/
+2024-08-27 18:50:28,425 - ERROR - Internal Server Error: /pipeline/predict/
